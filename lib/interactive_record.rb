@@ -56,7 +56,7 @@ class InteractiveRecord
     key = hash.keys
     value = hash.values
     sql = "SELECT * FROM #{self.table_name} WHERE #{key} = #{value}"
-    binding.pry
+
 
   end
 
