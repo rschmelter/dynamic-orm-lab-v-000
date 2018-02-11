@@ -54,6 +54,7 @@ class InteractiveRecord
 
   def self.find_by(hash)
     hash
+    binding.pry
 
   end
 
