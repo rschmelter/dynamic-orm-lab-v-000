@@ -53,7 +53,7 @@ class InteractiveRecord
   end
 
   def self.find_by(hash)
-
+    hash
 
   end
 
